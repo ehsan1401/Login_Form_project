@@ -1,0 +1,109 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+  font-size: 15px;
+  font-family: cursive;
+  position: relative;
+  box-sizing: border-box;
+
+}
+
+.Sing_Up_paper{
+  height: 500px;
+  width: 39%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  padding-top: 253px;
+  background-image:  url(images/back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: aqua;
+  background-blend-mode:multiply;
+}
+
+.Sing_Up_paper h1{
+  font-family:sans-serif;
+  font-size: 60px;
+  color: #fff;
+  margin-top: 40px;
+}
+.Sing_Up_paper p{
+  margin: 15px;
+  color: #fff;
+  font-size: 25px;
+}
+.Sing_Up_paper button{
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 30px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size:15px;
+  cursor: pointer
+}
+
+.Login_paper{
+  background-color: #fff;
+  height: 500px;
+  width: 50%;
+  position: absolute;
+  left: 70px;
+  text-align: center;
+  padding-top: 253px;
+}
+
+.Login_paper h2{
+  font-family: sans-serif;
+  font-size: 50px;
+  padding: 20px;
+  margin-top: -30px;
+}
+.Login_paper p{
+  padding-bottom: 20px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+}
+.Login_paper img{
+  width: 40px;
+  height: 40px;
+  background-color:#fff;
+  border-radius: 50%;
+  padding: 7px;
+  margin-bottom:5px;
+}
+.Login_paper form{
+  padding-top:10px;
+  height: 300px;
+}
+.Login_paper form input{
+  margin: 10px;
+  width: 350px;
+  height: 45px;
+  background-color: rgb(231, 231, 231);
+  border: 0;
+  border-radius: 18px;
+  padding-left:15px;
+  padding-right:15px;
+  font-weight: bold;
+  outline: none;
+}
+.Login_paper form button{
+  margin: 10px;
+  width: 220px;
+  height: 45px;
+  border: 0;
+  border-radius: 18px;
+  margin-top: 10px;
+  background-color: #28b498;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer
+}
